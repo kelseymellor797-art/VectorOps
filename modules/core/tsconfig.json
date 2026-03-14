@@ -8,7 +8,6 @@
     "verbatimModuleSyntax": true,
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "declaration": true,
     "esModuleInterop": true
   },
   "include": ["./**/*.ts"]
