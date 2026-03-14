@@ -1,0 +1,6 @@
+packages:
+  - "apps/dispatcher-console"
+  - "apps/driver-pwa"
+  - "apps/public-track"
+  - "packages/*"
+  - "modules/*"
