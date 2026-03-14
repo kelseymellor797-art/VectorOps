@@ -1,4 +1,4 @@
-import { UserRole } from "../../core/enums/UserRole.ts";
+import { UserRole } from "@vectorops/core";
 
 export function isAdmin(role: UserRole): boolean {
   return role === UserRole.ADMIN;

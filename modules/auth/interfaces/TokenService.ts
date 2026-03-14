@@ -1,4 +1,4 @@
-import type { AuthTokenPayload } from "../types/AuthTokenPayload.ts";
+import type { AuthTokenPayload } from "../types/AuthTokenPayload";
 
 export interface TokenService {
   sign(payload: AuthTokenPayload): Promise<string>;

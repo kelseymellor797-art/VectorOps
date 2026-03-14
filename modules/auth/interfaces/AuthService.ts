@@ -1,6 +1,6 @@
-import type { LoginRequest } from "../types/LoginRequest.ts";
-import type { LoginResponse } from "../types/LoginResponse.ts";
-import type { AuthUserContext } from "../types/AuthUserContext.ts";
+import type { LoginRequest } from "../types/LoginRequest";
+import type { LoginResponse } from "../types/LoginResponse";
+import type { AuthUserContext } from "../types/AuthUserContext";
 
 export interface AuthService {
   login(input: LoginRequest): Promise<LoginResponse>;

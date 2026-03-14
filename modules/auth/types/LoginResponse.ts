@@ -1,5 +1,4 @@
-import type { User } from "../../core/entities/User.ts";
-import type { Membership } from "../../core/entities/Membership.ts";
+import type { User, Membership } from "@vectorops/core";
 
 export interface LoginResponse {
   token: string;

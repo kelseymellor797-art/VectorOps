@@ -1,9 +1,9 @@
-export type { AuthTokenPayload } from "./types/AuthTokenPayload.ts";
-export type { AuthUserContext } from "./types/AuthUserContext.ts";
-export type { LoginRequest } from "./types/LoginRequest.ts";
-export type { LoginResponse } from "./types/LoginResponse.ts";
+export type { AuthTokenPayload } from "./types/AuthTokenPayload";
+export type { AuthUserContext } from "./types/AuthUserContext";
+export type { LoginRequest } from "./types/LoginRequest";
+export type { LoginResponse } from "./types/LoginResponse";
 
-export type { AuthService } from "./interfaces/AuthService.ts";
-export type { TokenService } from "./interfaces/TokenService.ts";
+export type { AuthService } from "./interfaces/AuthService";
+export type { TokenService } from "./interfaces/TokenService";
 
-export { isAdmin, isDispatcher, isDriver } from "./utils/authGuards.ts";
+export { isAdmin, isDispatcher, isDriver } from "./utils/authGuards";

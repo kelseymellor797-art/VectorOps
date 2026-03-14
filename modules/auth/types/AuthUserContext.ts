@@ -1,4 +1,4 @@
-import type { UserRole } from "../../core/enums/UserRole.ts";
+import type { UserRole } from "@vectorops/core";
 
 export interface AuthUserContext {
   userId: string;
