@@ -1,15 +1,12 @@
 import type { Unit, Assignment } from "@vectorops/core";
 
 /**
- * Filter units to only those that are not currently assigned.
+ * Check whether a unit is available for dispatch.
  * A unit is considered available if it has no active assignment.
  */
-export function getAvailableUnits(
-  units: Unit[],
+export function isUnitAvailable(
+  unit: Unit,
   activeAssignments: Assignment[]
-): Unit[] {
-  const assignedUnitIds = new Set(
-    activeAssignments.map((a) => a.unitId)
-  );
-  return units.filter((unit) => !assignedUnitIds.has(unit.id));
+): boolean {
+  return !activeAssignments.some((a) => a.unitId === unit.id);
 }

@@ -2,5 +2,5 @@
 export type { DispatchService } from "./services/DispatchService";
 
 // Utils
-export { haversineDistance } from "./utils/distance";
-export { getAvailableUnits } from "./utils/unitAvailability";
+export { distanceBetween } from "./utils/distance";
+export { isUnitAvailable } from "./utils/unitAvailability";
