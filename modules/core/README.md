@@ -1,27 +1,15 @@
-# @vectorops/core
+// Entities
+export type { Tenant } from "./entities/Tenant";
+export type { User } from "./entities/User";
+export type { Membership } from "./entities/Membership";
+export type { Unit } from "./entities/Unit";
+export type { Call } from "./entities/Call";
+export type { Assignment } from "./entities/Assignment";
+export type { Position } from "./entities/Position";
 
-Core domain module for the VectorOps platform.
+// Enums
+export { CallStatus } from "./enums/CallStatus";
+export { UserRole } from "./enums/UserRole";
 
-## Overview
-
-This module defines the foundational entities, enums, and shared types used across all VectorOps modules. It serves as the single source of truth for the platform's domain model.
-
-## Contents
-
-- **Entities** — `Tenant`, `User`, `Membership`, `Unit`, `Call`, `Assignment`, `Position`
-- **Enums** — `CallStatus`, `UserRole`
-- **Types** — `GeoLocation`
-
-## Usage
-
-Other modules in the VectorOps monorepo depend on `@vectorops/core` for shared type definitions:
-
-```ts
-import { Call, CallStatus, GeoLocation } from "@vectorops/core";
-```
-
-## Design Principles
-
-- This module should remain **framework-agnostic** — no runtime dependencies on any specific backend, frontend, or database framework.
-- Contains only type definitions (interfaces and enums) — no business logic, no database code, no mock data.
-- All other VectorOps modules may depend on this module, but this module should not depend on any other VectorOps module.
+// Types
+export type { GeoLocation } from "./types/GeoLocation";
