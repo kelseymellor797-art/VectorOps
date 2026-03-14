@@ -1,5 +1,5 @@
-import { CallStatus } from "../enums/CallStatus";
-import { GeoLocation } from "../types/GeoLocation";
+import type { CallStatus } from "../enums/CallStatus";
+import type { GeoLocation } from "../types/GeoLocation";
 
 export interface Call {
   id: string;
