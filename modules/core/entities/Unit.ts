@@ -2,7 +2,7 @@ export interface Unit {
   id: string;
   tenantId: string;
   name: string;
-  plate: string;
-  createdAt: string;
-  updatedAt: string;
+  truckNumber: string;
+  capabilities: string[];
+  createdAt: Date;
 }

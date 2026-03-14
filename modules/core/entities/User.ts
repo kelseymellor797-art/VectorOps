@@ -1,7 +1,8 @@
 export interface User {
   id: string;
   email: string;
-  name: string;
-  createdAt: string;
-  updatedAt: string;
+  displayName: string;
+  phone?: string;
+  isActive: boolean;
+  createdAt: Date;
 }

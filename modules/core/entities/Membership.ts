@@ -2,9 +2,8 @@ import type { UserRole } from "../enums/UserRole.ts";
 
 export interface Membership {
   id: string;
-  userId: string;
   tenantId: string;
+  userId: string;
   role: UserRole;
-  createdAt: string;
-  updatedAt: string;
+  createdAt: Date;
 }

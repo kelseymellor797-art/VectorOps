@@ -1,7 +1,9 @@
 export enum CallStatus {
-  Pending = "pending",
-  Dispatched = "dispatched",
-  InProgress = "in_progress",
-  Completed = "completed",
-  Cancelled = "cancelled",
+  NEW = "NEW",
+  ASSIGNED = "ASSIGNED",
+  EN_ROUTE = "EN_ROUTE",
+  ON_SCENE = "ON_SCENE",
+  TOWING = "TOWING",
+  COMPLETE = "COMPLETE",
+  CANCELED = "CANCELED",
 }
