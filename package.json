@@ -1,0 +1,15 @@
+{
+  "name": "vectorops",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Command center for your fleet. Fleet & logistics operations made easy.",
+  "scripts": {
+    "dev:console": "pnpm --filter dispatcher-console dev",
+    "dev:driver": "pnpm --filter driver-pwa dev",
+    "dev:track": "pnpm --filter public-track dev"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
